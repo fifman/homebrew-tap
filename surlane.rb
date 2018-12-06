@@ -1,9 +1,9 @@
 class Surlane < Formula
   desc "secure tunnel like shadowsocks, but lightweight"
   homepage ""
-  url "https://github.com/fifman/surlane/releases/download/v0.3.0/surlane_0.3.0_Darwin_x86_64.tar.gz"
-  version "0.3.0"
-  sha256 "2b5a7c4e5dded6a3060e915a8037a09eea3e0856c3342f1dfc87f323196ba8b5"
+  url "https://github.com/fifman/surlane/releases/download/v0.4.0/surlane_0.4.0_Darwin_x86_64.tar.gz"
+  version "0.4.0"
+  sha256 "e5f21bb50d1ec50a911ed0b6bd65a79c956aa4ec7035e7e009af6655dfe94912"
 
   def install
     bin.install "surlane"
