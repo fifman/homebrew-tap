@@ -2,9 +2,9 @@ require 'formula'
 
 class Springbootx < Formula
   homepage 'https://spring.io/projects/spring-boot'
-  url 'https://github.com/fifman/spring-boot/blob/master/spring-boot-project/spring-boot-cli/release/spring-boot-cli-2.2.0.BUILD-SNAPSHOT-bin.tar.gz'
+  url 'https://github.com/fifman/spring-boot/releases/download/2.2.0.BUILD-SNAPSHOT/spring-boot-cli-2.2.0.BUILD-SNAPSHOT-bin.tar.gz'
   version '2.2.0.BUILD-SNAPSHOT'
-  sha256 '2d02229a4a083b98452c31e8563f2b29d55c628d65694f21bc26c365a9e63a75'
+  sha256 '9903be949a85eb4264dd6dae3eb5147c0b6201d981dee1f1e09f0785fc039956'
   head 'https://github.com/fifman/spring-boot.git'
 
   if build.head?
